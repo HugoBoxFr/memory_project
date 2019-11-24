@@ -21,18 +21,18 @@ const imagesSingle = [
   'images/Craig.png',
 ];
 
-// bibliotèque de son
-let audioLibrary2P = [
-'CartmanSounds/Holy crap.mp3',
-'CartmanSounds/Im not fat.mp3',
-'CartmanSounds/Screw u guys.mp3'
-];
+// // bibliotèque de son
+// let audioLibrary2P = [
+// 'CartmanSounds/Holy crap.mp3',
+// 'CartmanSounds/Im not fat.mp3',
+// 'CartmanSounds/Screw u guys.mp3'
+// ];
 
-let audioLibrary1P = [
-  "CartmanSounds/Kenny laughing.mp3",
-  "CartmanSounds/Mrph mmph mrh mrph.mp3",
-  "CartmanSounds/Kenny blah.mp3",
-]
+// let audioLibrary1P = [
+//   "CartmanSounds/Kenny laughing.mp3",
+//   "CartmanSounds/Mrph mmph mrh mrph.mp3",
+//   "CartmanSounds/Kenny blah.mp3",
+// ]
 
 
 
@@ -162,13 +162,13 @@ function onCardClicked (i) {
   } else if ((imgToCompare.length === 2) && (imgToCompare[0] !== imgToCompare[1])){
     //Changement de joueur
     if (playerOne === true) {
-      imagesElt.style.cursor = "url(images/CartmanPointer.png), auto";
+      //imagesElt.style.cursor = "url(images/CartmanPointer.png), auto";
       playerOne = false;
       playerTwo = true;
       
     }
     else {
-      imagesElt.style.cursor = "url(images/KennyPointer.png), auto";
+      //imagesElt.style.cursor = "url(images/KennyPointer.png), auto";
       playerOne = true;
       playerTwo = false;
       

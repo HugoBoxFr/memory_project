@@ -362,7 +362,8 @@ fonts south park like
     }
 
     #memory-game{
-    cursor: url(images/KennyPointer.png), auto;
+      /* cursor: url(images/KennyPointer.png), auto; */
+      cursor: pointer;
     }
 
     .modal-content {

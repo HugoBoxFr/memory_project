@@ -327,9 +327,9 @@ fonts south park like
   float: right;
 }
 
-.imgClass{
+/* .imgClass{
   cursor: url(images/JesusPointer.png), auto;
-}
+} */
 
 a:hover {
   transform: scale(1.03);
