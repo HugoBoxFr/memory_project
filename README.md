@@ -1,6 +1,6 @@
 # South Park - Brain Destroyer 
 
-<img src="images/readme.png" alt="south park brain destroyer"> 
+<img src="images/read_me.png" alt="south park brain destroyer"> 
 
 A Memory Game on South Park Theme
 

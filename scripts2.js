@@ -21,20 +21,6 @@ const imagesSingle = [
   'images/Craig.png',
 ];
 
-// // bibliotèque de son
-// let audioLibrary2P = [
-// 'CartmanSounds/Holy crap.mp3',
-// 'CartmanSounds/Im not fat.mp3',
-// 'CartmanSounds/Screw u guys.mp3'
-// ];
-
-// let audioLibrary1P = [
-//   "CartmanSounds/Kenny laughing.mp3",
-//   "CartmanSounds/Mrph mmph mrh mrph.mp3",
-//   "CartmanSounds/Kenny blah.mp3",
-// ]
-
-
 
 // On crée un tableau "images", puis on ajoute deux fois chaque carte autant de fois qu'il y a de cartes 
 // dans le tableau "imagesSingle".
@@ -130,9 +116,6 @@ function onCardClicked (i) {
     if (playerOne === true) {
       firstCardFront.style.backgroundColor = "#9d4909";
       secondCardFront.style.backgroundColor = "#9d4909";
-      // let audioTemp = audioLibrary1P[randomNumber(audioLibrary1P.length)]
-      // let audio = new Audio(`${audioTemp}`)
-      // audio.play();
       firstPlayer();
 
       score1Elt.innerHTML = (`<p> ${score1}</p>`)
@@ -144,9 +127,6 @@ function onCardClicked (i) {
     } else {
       firstCardFront.style.backgroundColor = "#024a4d";
       secondCardFront.style.backgroundColor = "#024a4d";
-      // let audioTemp = audioLibrary2P[randomNumber(audioLibrary2P.length)]
-      // let audio = new Audio(`${audioTemp}`)
-      // audio.play();
       secondPlayer();
       score2Elt.innerHTML = (`<p> ${score2}</p>`) 
       modalScore();
@@ -162,13 +142,11 @@ function onCardClicked (i) {
   } else if ((imgToCompare.length === 2) && (imgToCompare[0] !== imgToCompare[1])){
     //Changement de joueur
     if (playerOne === true) {
-      //imagesElt.style.cursor = "url(images/CartmanPointer.png), auto";
       playerOne = false;
       playerTwo = true;
       
     }
     else {
-      //imagesElt.style.cursor = "url(images/KennyPointer.png), auto";
       playerOne = true;
       playerTwo = false;
       
