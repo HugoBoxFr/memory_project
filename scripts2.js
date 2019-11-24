@@ -130,9 +130,9 @@ function onCardClicked (i) {
     if (playerOne === true) {
       firstCardFront.style.backgroundColor = "#9d4909";
       secondCardFront.style.backgroundColor = "#9d4909";
-      let audioTemp = audioLibrary1P[randomNumber(audioLibrary1P.length)]
-      let audio = new Audio(`${audioTemp}`)
-      audio.play();
+      // let audioTemp = audioLibrary1P[randomNumber(audioLibrary1P.length)]
+      // let audio = new Audio(`${audioTemp}`)
+      // audio.play();
       firstPlayer();
 
       score1Elt.innerHTML = (`<p> ${score1}</p>`)
@@ -144,9 +144,9 @@ function onCardClicked (i) {
     } else {
       firstCardFront.style.backgroundColor = "#024a4d";
       secondCardFront.style.backgroundColor = "#024a4d";
-      let audioTemp = audioLibrary2P[randomNumber(audioLibrary2P.length)]
-      let audio = new Audio(`${audioTemp}`)
-      audio.play();
+      // let audioTemp = audioLibrary2P[randomNumber(audioLibrary2P.length)]
+      // let audio = new Audio(`${audioTemp}`)
+      // audio.play();
       secondPlayer();
       score2Elt.innerHTML = (`<p> ${score2}</p>`) 
       modalScore();
