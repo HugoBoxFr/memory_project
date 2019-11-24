@@ -1,6 +1,8 @@
-# Welcome on South Park - Brain Destroyer 
+# South Park - Brain Destroyer 
 
-<img src="images/readme.png" alt="south park brain destroyer"> A Memory Game on South Park Theme
+<img src="images/readme.png" alt="south park brain destroyer"> 
+
+A Memory Game on South Park Theme
 
 Improve your memory on https://hugoboxfr.github.io/memory_project/ 
 
